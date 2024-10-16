@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Сравнение автомобилей</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightyellow;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+        caption {
+            font-size: 1.5em;
+            margin: 10px;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #ffc107;
+            color: #fff;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f4f4f4;
+        }
+        tfoot {
+            background-color: #f4f4f4;
+        }
+        summary {
+            cursor: pointer;
+            font-weight: bold;
+        }
+        details p {
+            margin: 0 0 10px 20px;
+        }
+        .car-images img {
+            width: 200px;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="car-images">
+        <h3>Фотографии автомобилей:</h3>
+        <img src="https://i.pinimg.com/736x/e6/f4/91/e6f491cb5c00adf1690a0f80af0b65ea.jpg" alt="Lamborghini">
+        <img src="https://84.img.avito.st/image/1/1.MU0FMLa2N96xE5VmtEtcVQ7jn6S1ix-sc5Sf.z_Bp-GIThieLfIcV7ZQCNDJyJu-DvyD3wKu5MwAGro0" alt="Voyah">
+        <img src="https://i.pinimg.com/originals/3d/11/d7/3d11d7e50caedf85232d428ad7303404.jpg" alt="Jaguar">
+    </div>
+    <table>
+        <caption>Сравнение характеристик автомобилей</caption>
+        <thead>
+            <tr>
+                <th>Характеристика</th>
+                <th>Lamborghini</th>
+                <th>Voyah</th>
+                <th>Jaguar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Самая дорогая модель</td>
+                <td>Revuelto</td>
+                <td>Dream</td>
+                <td>D-Type</td>
+            </tr>
+            <tr>
+                <td>Самая дешёвая модель</td>
+                <td>Gallardo</td>
+                <td>Free</td>
+                <td>XE</td>
+            </tr>
+            <tr>
+                <td>Двигатель</td>
+                <td>V12</td>
+                <td>Electric</td>
+                <td>V8</td>
+            </tr>
+            <tr>
+                <td>Расход топлива</td>
+                <td><mark>20 l/100km</mark></td>
+                <td><mark>Electric</mark></td>
+                <td><mark>11 l/100km</mark></td>
+            </tr>
+            <tr>
+                <td>Скорость</td>
+                <td>200 km/h</td>
+                <td>100 km/h</td>
+                <td>100 km/h</td>
+            </tr>
+            <tr>
+                <td>Наличие экологических сертификатов</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Гарантийный срок</td>
+                <td>3 года</td>
+                <td>5 лет</td>
+                <td>3 года</td>
+            </tr>
+            <tr>
+                <td>Максимальная скорость</td>
+                <td>350 km/h</td>
+                <td>200 km/h</td>
+                <td>237 km/h</td>
+            </tr>
+            <tr>
+                <td>Тип (механическая, автоматическая, вариатор)</td>
+                <td>Автоматическая</td>
+                <td>Автоматическая</td>
+                <td>Автоматическая</td>
+            </tr>
+            <tr>
+                <td>Количество передач</td>
+                <td>7</td>
+                <td>6</td>
+                <td>8</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">
+                    <details>
+                        <summary>Lamborghini</summary>
+                        <p>Производитель: Италия</p>
+                    </details>
+                    <details>
+                        <summary>Voyah</summary>
+                        <p>Производитель: Китай</p>
+                    </details>
+                    <details>
+                        <summary>Jaguar</summary>
+                        <p>Производитель: Великобритания</p>
+                    </details>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

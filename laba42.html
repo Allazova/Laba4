@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Сравнение автомобилей</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightblue;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+        caption {
+            font-size: 1.5em;
+            margin: 10px;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: blue;
+            color: #fff;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f4f4f4;
+        }
+        tfoot {
+            background-color: #f4f4f4;
+        }
+        summary {
+            cursor: pointer;
+            font-weight: bold;
+        }
+        details p {
+            margin: 0 0 10px 20px;
+        }
+        .car-images img {
+            width: 200px;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="car-images">
+        <h3>Фотографии автомобилей:</h3>
+        <img src="https://mirfar.com/upload/iblock/2d6/v98wo0r60kcmf8k49go2a4g3lxtqdezn.jpg" alt="Mercedes">
+        <img src="https://a.d-cd.net/RyAAAgM8veA-960.jpg" alt="BMW">
+        <img src="https://www.carscoops.com/wp-content/uploads/2019/04/032f0113-porsche-panamera-10-year-anniversary-15.jpg" alt="Porsche">
+    </div>
+    <table>
+        <caption>Сравнение характеристик автомобилей</caption>
+        <thead>
+            <tr>
+                <th>Характеристика</th>
+                <th>Mercedes</th>
+                <th>BMW</th>
+                <th>Porsche</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Тип двигателя (бензиновый, дизельный, гибридный, электрический)</td>
+                <td>Бензиновый</td>
+                <td>Бензиновый</td>
+                <td>Бензиновый</td>
+            </tr>
+            <tr>
+                <td>Расход топлива</td>
+                <td>5.5 до 6.5 л на 100 км</td>
+                <td>6.1 л на 100 км</td>
+                <td>6-23.3 л на 100 км</td>
+            </tr>
+            <tr>
+                <td>Тип (механическая, автоматическая, роботизированная)</td>
+                <td>Все типы </td>
+                <td>Все типы</td>
+                <td>Все типы</td>
+            </tr>
+            <tr>
+                <td>Количество передач</td>
+                <td>7-9</td>
+                <td>6-8</td>
+                <td>7-8</td>
+            </tr>
+            <tr>
+                <td>Габариты (длина, ширина, высота)</td>
+                <td>4,715 мм x 1,881 мм x 1,928 мм</td>
+                <td>4,941 мм x 2019 мм x 1652 мм</td>
+                <td>4,970 мм x 1,913 мм x 1,408 мм</td>
+            </tr>
+            <tr>
+                <td>Объем багажника</td>
+                <td>300-500 л</td>
+                <td>480-500 л</td>
+                <td>90-264 л</td>
+            </tr>
+            <tr>
+                <td>Наличие систем активной и пассивной безопасности (ABS, ESP, подушки безопасности)</td>
+                <td>ABS, ESP, Подушки безопасности</td>
+                <td>ABS, ESP, Подушки безопасности</td>
+                <td>ABS, ESP, Подушки безопасностиа</td>
+            </tr>
+            <tr>
+                <td>Рейтинг краш-тестов (Euro NCAP и др.)</td>
+                <td>5 звезды Euro NCAP </td>
+                <td>5 звезды Euro NCAP</td>
+                <td>5 звезды Euro NCAP</td>
+            </tr>
+            <tr>
+                <td>Разгон до 100 км/ч</td>
+                <td>3.4-23 сек</td>
+                <td>3.9-18 сек</td>
+                <td>2.5-10.4 сек</td>
+            </tr>
+            <tr>
+                <td>Максимальная скорость</td>
+                <td>310 км/ч</td>
+                <td>307 км/ч</td>
+                <td>330 км/ч</td>
+            </tr>
+            <tr><td>Начальная цена модели</td>
+                <td>3.510.000 </td>
+                <td>1.490.000</td>
+                <td>1.830.000</td>
+            </tr>
+            <tr>
+                <td>Наличие Wi-Fi и Bluetooth</td>
+                <td>Да</td>
+                <td>Да</td>
+                <td>Да</td>
+            </tr>
+            <tr>
+                <td>Тормозная система (дисковые, барабанные тормоза)</td>
+                <td>Дисковые</td>
+                <td>Дисковые</td>
+                <td>Дисковые</td>
+            </tr>
+            <tr>
+                <td>Наличие систем предотвращения столкновений</td>
+                <td>Да</td>
+                <td>Да</td>
+                <td>Да</td>
+            </tr>
+            <tr>
+                <td>Гарантийный срок</td>
+                <td>2 года</td>
+                <td>2 года</td>
+                <td>2 года</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">
+                    <details>
+                        <summary>Mercedes</summary>
+                        <p>Производитель: Германия</p>
+                    </details>
+                    <details>
+                        <summary>BMW</summary>
+                        <p>Производитель:Германия</p>
+                    </details>
+                    <details>
+                        <summary>Porsche</summary>
+                        <p>Производитель: Германия</p>
+                    </details>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
